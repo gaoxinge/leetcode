@@ -6,3 +6,4 @@
 - [Median of Two Sorted Arrays](./004)
 - [Longest Palindromic Substring](./005)
 - [Zigzag Conversion](./006)
+- [Reverse Integer](./007)
