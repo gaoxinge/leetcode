@@ -7,3 +7,4 @@
 - [Longest Palindromic Substring](./005)
 - [Zigzag Conversion](./006)
 - [Reverse Integer](./007)
+- [String to Integer (atoi)](./008)
