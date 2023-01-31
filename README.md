@@ -13,3 +13,5 @@
 - [Container With Most Water](./011)
 - [Integer to Roman](./012)
 - [Roman to Integer](./013)
+- [Longest Common Prefix](./014)
+- [3Sum](./015)
