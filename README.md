@@ -16,3 +16,5 @@
 - [Longest Common Prefix](./014)
 - [3Sum](./015)
 - [3Sum Closest](./016)
+- [Letter Combinations of a Phone Number](./017)
+- [4Sum](./018)
