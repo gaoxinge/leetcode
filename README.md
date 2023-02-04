@@ -18,3 +18,8 @@
 - [3Sum Closest](./016)
 - [Letter Combinations of a Phone Number](./017)
 - [4Sum](./018)
+- [Remove Nth Node From End of List](./019)
+- [Valid Parentheses](./020)
+- [Merge Two Sorted Lists](./021)
+- [Generate Parentheses](./022)
+- [Merge k Sorted Lists](./023)
