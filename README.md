@@ -23,3 +23,7 @@
 - [Merge Two Sorted Lists](./021)
 - [Generate Parentheses](./022)
 - [Merge k Sorted Lists](./023)
+- [Swap Nodes in Pairs](./024)
+- [Reverse Nodes in k-Group](./025)
+- [Remove Duplicates from Sorted Array](./026)
+- [Remove Element](./027)
