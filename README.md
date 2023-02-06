@@ -27,3 +27,5 @@
 - [Reverse Nodes in k-Group](./025)
 - [Remove Duplicates from Sorted Array](./026)
 - [Remove Element](./027)
+- [Find the Index of the First Occurrence in a String](./028)
+- [Divide Two Integers](./029)
