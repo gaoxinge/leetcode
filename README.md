@@ -29,3 +29,4 @@
 - [Remove Element](./027)
 - [Find the Index of the First Occurrence in a String](./028)
 - [Divide Two Integers](./029)
+- [Substring with Concatenation of All Words](./030)
