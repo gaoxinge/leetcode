@@ -32,3 +32,6 @@
 - [Substring with Concatenation of All Words](./030)
 - [Next Permutation](./031)
 - [Longest Valid Parentheses](./032)
+- [Search in Rotated Sorted Array](./033)
+- [Find First and Last Position of Element in Sorted Array](./034)
+- [Search Insert Position](./035)
