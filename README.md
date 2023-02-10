@@ -35,3 +35,4 @@
 - [Search in Rotated Sorted Array](./033)
 - [Find First and Last Position of Element in Sorted Array](./034)
 - [Search Insert Position](./035)
+- [Valid Sudoku](./036)
