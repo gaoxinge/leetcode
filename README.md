@@ -38,3 +38,5 @@
 - [Valid Sudoku](./036)
 - [Sudoku Solver](./037)
 - [Count and Say](./038)
+- [Combination Sum](./039)
+- [Combination Sum II](./040)
