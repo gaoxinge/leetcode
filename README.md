@@ -42,3 +42,5 @@
 - [Combination Sum II](./040)
 - [First Missing Positive](./041)
 - [Trapping Rain Water](./042)
+- [Multiply Strings](./043)
+- [Wildcard Matching](./044)
