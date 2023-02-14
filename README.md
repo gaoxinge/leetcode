@@ -40,3 +40,5 @@
 - [Count and Say](./038)
 - [Combination Sum](./039)
 - [Combination Sum II](./040)
+- [First Missing Positive](./041)
+- [Trapping Rain Water](./042)
