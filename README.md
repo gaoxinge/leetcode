@@ -45,3 +45,5 @@
 - [Multiply Strings](./043)
 - [Wildcard Matching](./044)
 - [Jump Game II](./045)
+- [Permutations](./046)
+- [Permutations II](./047)
