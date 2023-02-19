@@ -49,3 +49,4 @@
 - [Permutations II](./047)
 - [Rotate Image](./048)
 - [Group Anagrams](./049)
+- [Pow(x, n)](./050)
