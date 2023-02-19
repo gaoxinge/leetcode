@@ -47,3 +47,5 @@
 - [Jump Game II](./045)
 - [Permutations](./046)
 - [Permutations II](./047)
+- [Rotate Image](./048)
+- [Group Anagrams](./049)
