@@ -52,3 +52,5 @@
 - [Pow(x, n)](./050)
 - [N-Queens](./051)
 - [N-Queens II](./052)
+- [Maximum Subarray](./053)
+- [Spiral Matrix](./054)
