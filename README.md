@@ -54,3 +54,4 @@
 - [N-Queens II](./052)
 - [Maximum Subarray](./053)
 - [Spiral Matrix](./054)
+- [Jump Game](./055)
