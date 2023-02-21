@@ -50,3 +50,5 @@
 - [Rotate Image](./048)
 - [Group Anagrams](./049)
 - [Pow(x, n)](./050)
+- [N-Queens](./051)
+- [N-Queens II](./052)
