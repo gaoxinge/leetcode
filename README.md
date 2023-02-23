@@ -55,3 +55,8 @@
 - [Maximum Subarray](./053)
 - [Spiral Matrix](./054)
 - [Jump Game](./055)
+- [Merge Intervals](./056)
+- [Insert Interval](./057)
+- [Length of Last Word](./058)
+- [Spiral Matrix II](./059)
+- [Permutation Sequence](./060)
