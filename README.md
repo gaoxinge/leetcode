@@ -60,3 +60,5 @@
 - [Length of Last Word](./058)
 - [Spiral Matrix II](./059)
 - [Permutation Sequence](./060)
+- [Rotate List](./061)
+- [Unique Paths](./062)
