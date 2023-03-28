@@ -66,3 +66,4 @@
 - [Minimum Path Sum](./064)
 - [Valid Number](./065)
 - [Plus One](./066)
+- [Add Binary](./067)
