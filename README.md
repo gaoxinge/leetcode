@@ -67,3 +67,4 @@
 - [Valid Number](./065)
 - [Plus One](./066)
 - [Add Binary](./067)
+- [Text Justification](./068)
