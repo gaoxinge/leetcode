@@ -68,3 +68,4 @@
 - [Plus One](./066)
 - [Add Binary](./067)
 - [Text Justification](./068)
+- [Sqrt(x)](./069)
