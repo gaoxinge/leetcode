@@ -71,3 +71,4 @@
 - [Sqrt(x)](./069)
 - [Climbing Stairs](./070)
 - [Simplify Path](./071)
+- [Edit Distance](./072)
