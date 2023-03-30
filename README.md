@@ -70,3 +70,4 @@
 - [Text Justification](./068)
 - [Sqrt(x)](./069)
 - [Climbing Stairs](./070)
+- [Simplify Path](./071)
