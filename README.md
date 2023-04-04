@@ -72,3 +72,4 @@
 - [Climbing Stairs](./070)
 - [Simplify Path](./071)
 - [Edit Distance](./072)
+- [Linked List Random Node](./382)
