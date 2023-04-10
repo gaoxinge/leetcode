@@ -72,4 +72,6 @@
 - [Climbing Stairs](./070)
 - [Simplify Path](./071)
 - [Edit Distance](./072)
+- [Set Matrix Zeroes](./073)
+- [Search a 2D Matrix](./074)
 - [Linked List Random Node](./382)
