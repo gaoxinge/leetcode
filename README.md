@@ -74,4 +74,5 @@
 - [Edit Distance](./072)
 - [Set Matrix Zeroes](./073)
 - [Search a 2D Matrix](./074)
+- [Sort Colors](./075)
 - [Linked List Random Node](./382)
