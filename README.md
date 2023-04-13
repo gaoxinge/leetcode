@@ -76,4 +76,7 @@
 - [Search a 2D Matrix](./074)
 - [Sort Colors](./075)
 - [Minimum Window Substring](./076)
+- [Combinations](./077)
+- [Subsets](./078)
+- [Word Search](./079)
 - [Linked List Random Node](./382)
