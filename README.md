@@ -81,4 +81,6 @@
 - [Word Search](./079)
 - [Remove Duplicates from Sorted Array II](./080)
 - [Search in Rotated Sorted Array II](./081)
+- [Remove Duplicates from Sorted List II](./082)
+- [Remove Duplicates from Sorted List](./083)
 - [Linked List Random Node](./382)
