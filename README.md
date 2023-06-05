@@ -83,4 +83,5 @@
 - [Search in Rotated Sorted Array II](./081)
 - [Remove Duplicates from Sorted List II](./082)
 - [Remove Duplicates from Sorted List](./083)
+- [Largest Rectangle in Histogram](./084)
 - [Linked List Random Node](./382)
