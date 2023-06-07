@@ -84,4 +84,5 @@
 - [Remove Duplicates from Sorted List II](./082)
 - [Remove Duplicates from Sorted List](./083)
 - [Largest Rectangle in Histogram](./084)
+- [Maximal Rectangle](./085)
 - [Linked List Random Node](./382)
