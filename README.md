@@ -85,6 +85,7 @@
 - [Remove Duplicates from Sorted List](./083)
 - [Largest Rectangle in Histogram](./084)
 - [Maximal Rectangle](./085)
+- [Partition List](./086)
 - [Majority Element](./169)
 - [Linked List Random Node](./382)
 - [Trapping Rain Water II](./407)
