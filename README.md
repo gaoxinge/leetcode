@@ -90,6 +90,8 @@
 - [Gray Code](./089)
 - [Subsets II](./090)
 - [Decode Ways](./091)
+- [Reverse Linked List II](./092)
+- [Restore IP Addresses](./093)
 - [Interleaving String](./097)
 - [Best Time to Buy and Sell Stock](./121)
 - [Best Time to Buy and Sell Stock II](./122)
