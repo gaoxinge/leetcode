@@ -92,6 +92,7 @@
 - [Decode Ways](./091)
 - [Reverse Linked List II](./092)
 - [Restore IP Addresses](./093)
+- [Binary Tree Inorder Traversal](./094)
 - [Interleaving String](./097)
 - [Best Time to Buy and Sell Stock](./121)
 - [Best Time to Buy and Sell Stock II](./122)
