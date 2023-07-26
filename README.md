@@ -94,6 +94,7 @@
 - [Restore IP Addresses](./093)
 - [Binary Tree Inorder Traversal](./094)
 - [Unique Binary Search Trees II](./095)
+- [Unique Binary Search Trees](./096)
 - [Interleaving String](./097)
 - [Best Time to Buy and Sell Stock](./121)
 - [Best Time to Buy and Sell Stock II](./122)
