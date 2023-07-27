@@ -96,6 +96,7 @@
 - [Unique Binary Search Trees II](./095)
 - [Unique Binary Search Trees](./096)
 - [Interleaving String](./097)
+- [Validate Binary Search Tree](./098)
 - [Best Time to Buy and Sell Stock](./121)
 - [Best Time to Buy and Sell Stock II](./122)
 - [Best Time to Buy and Sell Stock III](./123)
