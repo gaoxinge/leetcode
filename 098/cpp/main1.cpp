@@ -11,34 +11,24 @@
  */
 class Solution {
 public:
-    bool isValidBST(TreeNode *root, int &minValue, int &maxValue) {
-        minValue = root->val;
-        maxValue = root->val;
-        if (root->left != nullptr) {
-            int leftMinValue, leftMaxValue;
-            if (!isValidBST(root->left, leftMinValue, leftMaxValue)) {
-                return false;
-            }
-            if (leftMaxValue >= root->val) {
-                return false;
-            }
-            minValue = leftMinValue;
+    void getInorder(TreeNode *root, std::vector<int> &result) {
+        if (root == nullptr) {
+            return;
         }
-        if (root->right != nullptr) {
-            int rightMinValue, rightMaxValue;
-            if (!isValidBST(root->right, rightMinValue, rightMaxValue)) {
-                return false;
-            }
-            if (rightMinValue <= root->val) {
-                return false;
-            }
-            maxValue = rightMaxValue;
-        }
-        return true;
+        getInorder(root->left, result);
+        result.push_back(root->val);
+        getInorder(root->right, result);
     }
 
     bool isValidBST(TreeNode* root) {
-        int minValue, maxValue;
-        return isValidBST(root, minValue, maxValue);
+        std::vector<int> inorder;
+        getInorder(root, inorder);
+        for (int i = 1; i < inorder.size(); i++) {
+            if (inorder[i] <= inorder[i - 1]) {
+                return false;
+            }
+        }
+        return true;
     }
 };
+

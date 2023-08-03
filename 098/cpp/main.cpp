@@ -11,25 +11,30 @@
  */
 class Solution {
 public:
-    std::vector<int> getPreorder(TreeNode *root) {
+    std::vector<int> getInorder(TreeNode *root) {
         if (root == nullptr) {
             return {};
         }
-        auto leftPreorder = getPreorder(root->left);
-        auto rightPreorder = getPreorder(root->right);
+
+        auto leftPreorder = getInorder(root->left);
+        auto rightPreorder = getInorder(root->right);
         leftPreorder.push_back(root->val);
+
+        // leftPreorder.reserve(leftPreorder.size() + std::distance(rightPreorder.begin(), rightPreorder.end()));
+        // leftPreorder.insert(leftPreorder.end(), rightPreorder.begin(), rightPreorder.end());
         std::copy(rightPreorder.begin(), rightPreorder.end(), std::back_inserter(leftPreorder));
+
         return leftPreorder;
     }
 
     bool isValidBST(TreeNode* root) {
-        std::vector<int> preorder = getPreorder(root);
-        std::cout << std::endl;
-        for (int i = 1; i < preorder.size(); i++) {
-            if (preorder[i] <= preorder[i - 1]) {
+        std::vector<int> inorder = getInorder(root);
+        for (int i = 1; i < inorder.size(); i++) {
+            if (inorder[i] <= inorder[i - 1]) {
                 return false;
             }
         }
         return true;
     }
 };
+
