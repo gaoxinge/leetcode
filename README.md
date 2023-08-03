@@ -102,6 +102,8 @@
 - [Best Time to Buy and Sell Stock](./121)
 - [Best Time to Buy and Sell Stock II](./122)
 - [Best Time to Buy and Sell Stock III](./123)
+- [Binary Tree Preorder Traversal](./144)
+- [Binary Tree Postorder Traversal](./145)
 - [Majority Element](./169)
 - [Linked List Random Node](./382)
 - [Trapping Rain Water II](./407)
