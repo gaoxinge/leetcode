@@ -29,30 +29,26 @@ public:
         return result0;
     }
 
-    TreeNode *generateTree(std::vector<int> inorder, std::vector<int> preorder, bool &check) {
-        if (inorder.empty()) {
+    TreeNode *generateTree(std::vector<int> inorder, int in_i, int in_j, std::vector<int> preorder, int pre_i, int pre_j, bool &check) {
+        if (in_j - in_i == 0) {
             check = true;
             return nullptr;
         }
 
-        int t = preorder[0];
-        auto it = std::find(inorder.begin(), inorder.end(), t);
-        if (it == inorder.end()) {
+        int t = preorder[pre_i];
+        auto it = std::find(inorder.begin() + in_i, inorder.begin() + in_j, t);
+        if (it == inorder.begin() + in_j) {
             check = false;
             return nullptr;
         }
-        int idx = std::distance(inorder.begin(), it);
+        int index = std::distance(inorder.begin(), it);
 
-        std::vector<int> leftInorder(inorder.begin(), it);
-        std::vector<int> leftPreorder(preorder.begin() + 1, preorder.begin() + idx + 1);
-        auto left = generateTree(leftInorder, leftPreorder, check);
+        auto left = generateTree(inorder, in_i, index, preorder, pre_i + 1, pre_i + 1 + index - in_i, check);
         if (!check) {
             return nullptr;
         }
 
-        std::vector<int> rightInorder(it + 1, inorder.end());
-        std::vector<int> rightPreorder(preorder.begin() + idx + 1, preorder.end());
-        auto right = generateTree(rightInorder, rightPreorder, check);
+        auto right = generateTree(inorder, index + 1, in_j, preorder, pre_i + 1 + index - in_i, pre_j, check);
         if (!check) {
             return nullptr;
         }
@@ -70,7 +66,7 @@ public:
         std::vector<TreeNode *> result;
         for (auto &preorder: preorders) {
             bool check;
-            auto r = generateTree(inorder, preorder, check);
+            auto r = generateTree(inorder, 0, n, preorder, 0, n, check);
             if (check) {
                 result.push_back(r);
             }
