@@ -113,6 +113,8 @@
 - [Path Sum](./112)
 - [Path Sum II](./113)
 - [Flatten Binary Tree to Linked List](./114)
+- [Populating Next Right Pointers in Each Node](./116)
+- [Populating Next Right Pointers in Each Node II](./117)
 - [Best Time to Buy and Sell Stock](./121)
 - [Best Time to Buy and Sell Stock II](./122)
 - [Best Time to Buy and Sell Stock III](./123)
